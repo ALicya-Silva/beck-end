@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #519ddb; /* Cor de fundo geral */
+  }
+  
+  .login-container {
+    display: flex;
+    width: 900px; /* Largura total do contêiner */
+    height: 500px; /* Altura total do contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra do contêiner */
+  }
+  
+  .login-panel {
+    flex: 1; /* Ocupa metade da largura */
+    background-color: #f8f7fb; /* Cor de fundo do painel de login */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-bottom: 10px; 
+    width: 10px;
+    height: 20px;
+    align-items: center;
+    
+  }
+  
+  .login-panel h2 {
+    margin-bottom: 30px;
+  }
+  
+  .login-panel input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .forgot-password {
+    margin-bottom: 20px;
+    color: #007bff; /* Cor do link "Esqueci minha senha?" */
+    text-align: center
+
+  }
+
+  .login-panel button {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+
+  
